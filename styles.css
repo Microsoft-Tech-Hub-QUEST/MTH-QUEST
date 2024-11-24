@@ -1,0 +1,47 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.bg-primary {
+    background: linear-gradient(to right, #007bff, #0056b3);
+}
+
+.card {
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#achievements .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background-color: #fff;
+}
+
+#achievements .card:hover {
+    transform: translateY(-5px);
+}
+
+#achievements .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#achievements .card-text {
+    color: #555;
+    line-height: 1.6;
+}
