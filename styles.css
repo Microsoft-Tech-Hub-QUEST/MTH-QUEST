@@ -45,3 +45,6 @@ section {
     color: #555;
     line-height: 1.6;
 }
+.row > .col-md-4 {
+    margin-bottom: 30px; 
+}
