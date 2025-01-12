@@ -49,3 +49,29 @@ section {
     margin-bottom: 30px; /* Adds space between rows */
 }
 
+#scholar-section .card {
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#scholar-section .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#scholar-section img {
+    max-height: 100px;
+    object-fit: contain;
+}
+
+#scholar-section form .form-control {
+    border-radius: 5px;
+}
+
+#scholar-section form button {
+    background: #007bff;
+    border: none;
+    border-radius: 5px;
+}
+
